@@ -1,0 +1,31 @@
+{
+  "name": "JekyllTemplate",
+  "version": "0.0.0",
+  "description": "A template for jekyll sites",
+  "main": "_site/index.html",
+  "author": "Michael Käufl",
+  "license": "MIT",
+  "homepage": "http://michael-k.github.io/jekyll-template",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/michael-k/jekyll-template"
+  },
+  "keywords": [
+    "jekyll",
+    "template"
+  ],
+  "bugs": {
+    "url": "https://github.com/michael-k/jekyll-template/issues"
+  },
+  "engines": {
+    "node": ">= 0.10.0"
+  },
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-bower-task": "^0.4.0",
+    "grunt-contrib-uglify": "^0.9.1"
+  }
+}
