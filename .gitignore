@@ -1,0 +1,19 @@
+# tmp files
+*~
+\#*\#
+.\#*
+# dot files except explicitly listed
+.*
+!.gitignore
+!.travis.yml
+# jekyll build and cache
+_site
+.sass-cache
+# npm and bower downloads
+/node_modules/
+/bower_components/
+# images (use a submodule or git-lfs for them)
+*.jpg
+*.jpeg
+*.png
+*.gif
